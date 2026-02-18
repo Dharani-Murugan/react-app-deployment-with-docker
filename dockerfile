@@ -1,5 +1,5 @@
 #choosing the base image as the build stage:
-FROM node:16-slim as build 
+FROM node:16-slim AS build 
 
 #choosing working directory for the application:
 WORKDIR /app
